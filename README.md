@@ -1,8 +1,8 @@
 
-#Conversor de Áudio para Texto e Tradutor
+# Conversor de Áudio para Texto e Tradutor
 Este código implementa um sistema de conversão de áudio para texto e tradução automática utilizando a API do OpenAI e a biblioteca Gradio. O objetivo é permitir que o usuário forneça áudio em português e receba a transcrição em inglês, com a capacidade de interagir através de texto.
 
-##Requisitos
+## Requisitos
 Certifique-se de ter os seguintes requisitos instalados antes de executar o código:
 
 Python 3.x
@@ -10,7 +10,7 @@ Bibliotecas necessárias: gradio, openai, os, pyttsx3
 Configuração
 Antes de iniciar, substitua a variável openai.api_key com sua chave de API do OpenAI para garantir o acesso correto aos serviços.
 
-##Uso
+## Uso
 O código oferece duas opções de entrada: áudio ou texto. Se a entrada for áudio, o sistema transcreverá o áudio fornecido usando a API de transcrição de áudio do OpenAI. Em seguida, traduzirá a transcrição para inglês usando o modelo de linguagem GPT-3.5-turbo. O resultado da tradução será falado usando o mecanismo Text-to-Speech (TTS) do pyttsx3.
 
 Se a entrada for texto, o sistema utilizará diretamente o modelo GPT-3.5-turbo para gerar uma resposta traduzida.
@@ -23,3 +23,7 @@ O código utiliza a biblioteca Gradio para criar uma interface simples. A interf
 
 Como Executar
 Execute o código e a interface gráfica será lançada automaticamente. Você pode interagir com ela fornecendo áudio ou texto e observar a resposta traduzida.
+
+
+https://github.com/riqueschilder/P8M8/assets/99187952/bd6da367-0042-49a4-ac1e-59aec16a269a
+a voz dele nao apareceu no video mas ele fala...
